@@ -1,9 +1,7 @@
-"use client"
 import Image from "next/image";
 import { GraphQLClient, gql } from "graphql-request";
 import BlogCard from "./components/BlogCard";
 import '@tldraw/tldraw/tldraw.css'
-import {Tldraw} from '@tldraw/tldraw'
 
 const graphcms = new GraphQLClient(
   "https://api-ap-south-1.hygraph.com/v2/clpvm607aba8401ta9yxy3kdm/master"
